@@ -4,8 +4,7 @@
   "description": "electron app",
   "main": "main.js",
   "scripts": {
-    "start": "electron .",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "electron ."
   },
   "author": "",
   "license": "ISC",

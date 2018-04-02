@@ -104,3 +104,17 @@ npm install --save aws-sdk
 
 // A ready-to-use S3 Client
 const S3 = require('aws-sdk/clients/s3')
+
+Easy youtube video to follow along: https://www.youtube.com/watch?v=mr9Mtm_TRpw
+
+A github repo I tried to follow: https://github.com/bradtraversy/electronshoppinglist/blob/master/main.js
+
+documentation: https://electronjs.org/docs/README
+
+example app to build: https://medium.freecodecamp.org/how-to-build-your-first-app-with-electron-41ebdb796930
+
+a way too hard but cool music player app using electron + react: https://scotch.io/tutorials/build-a-music-player-with-react-electron-i-setup-basic-concepts
+
+simple app ideas: https://electronjs.org/blog/simple-samples#url
+
+sound machine app: https://medium.com/developers-writing/building-a-desktop-application-with-electron-204203eeb658
