@@ -118,3 +118,47 @@ a way too hard but cool music player app using electron + react: https://scotch.
 simple app ideas: https://electronjs.org/blog/simple-samples#url
 
 sound machine app: https://medium.com/developers-writing/building-a-desktop-application-with-electron-204203eeb658
+
+"hear me type" app example: https://medium.freecodecamp.org/how-to-build-your-first-app-with-electron-41ebdb796930
+
+Why did you choose this subject?
+
+* I think desktop apps are cool and liked the idea of exploring new tech outside of our primarily class focus on browser apps
+
+How were you first made aware of it?
+
+* in class today
+
+What problem does it solve?
+
+* non-browser based apps
+* off-line functionality
+* auto updates
+* different UX
+
+What is it similar to, if anything?
+
+* kind of similar to react
+
+What is your opinion on the technology after having built something with it?
+
+* i think i like it
+* i would definitley need way more time to really understand how it works and form more of an opinion, but the barriers to create something pretty simple were low
+
+What are the biggest conceptual hurdles (if any) you encountered when researching this?
+
+* there are a alot of examples of how to create a "hello world app" but not that many for something slightly bigger and then lots of examples for big and complicated stuff that i'm not ready for yet
+* trying to figure out what resources to use was hard as there were lots of sources
+* i was following one tutorial on basic setup and then started looking at another, but then they conflicted each other and i didn't know enough about how the language works to figure out what parts of which to take
+
+What resources do you recommend for interested students?
+
+* alot of the URLs above were helpful to me
+
+What article or forum was most helpful to you in learning this?
+
+* for me personally i think reading the documentation was the most helpful base to take in info after (youtube videos, medium articles,etc)
+
+Also, please include the instructions necessary to...Run your example.
+
+* i think just clone down this repo and run npm install && npm start
