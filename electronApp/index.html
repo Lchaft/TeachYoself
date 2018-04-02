@@ -7,11 +7,25 @@
 </head>
 
 <body>
-    <h1>Hello It's Monday!</h1>
-    We are using node
-    <script>document.write(process.versions.node)</script>, Chrome
-    <script>document.write(process.versions.chrome)</script>, and Electron
-    <script>document.write(process.versions.electron)</script>.
+    <div class="container">
+        <h1>Hello It's Monday!</h1>
+        <h2> AND MONDAY SUX</h2>
+        <div id="output"></div>
+    </div>
 </body>
+<script>
+    console.log(process)
+    let output = ` 
+    <h2 class="page-header">App Version Data </h2>
+    <ul class="list-group">
+        <li class= "list-group-item"> Node: ${process.versions.node} 
+        <li class= "list-group-item"> Chrome: ${process.versions.chrome} 
+        <li class= "list-group-item"> Electron: ${process.versions.electron}     
+    `;
+    document.getElementById('output').innerHTML = output
+</script>
+<script>
+    require('./renderer.js')
+</script>
 
 </html>

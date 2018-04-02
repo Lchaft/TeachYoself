@@ -81,3 +81,26 @@ Main + Render Processes:
 Using Electron APIs:
 
 Access Electron's APIs by requiring its included module: const electron = require('electron')
+
+Using Node.js APIs:
+
+Electron exposes full access to Node.js both in the main and the renderer process. This has two important implications:
+
+* All APIs available in Node.js are available in Electron. Calling the following code from an Electron app works:
+
+const fs = require('fs')
+
+const root = fs.readdirSync('/')
+
+// This will print all files at the root-level of the disk,
+// either '/' or 'C:\'.
+console.log(root)
+
+* You can use Node.js modules in your application. Pick your favorite npm module. npm offers currently the world's biggest repository of open-source code – the ability to use well-maintained and tested code that used to be reserved for server applications is one of the key features of Electron.
+
+As an example, to use the official AWS SDK in your application, you'd first install it as a dependency:
+
+npm install --save aws-sdk
+
+// A ready-to-use S3 Client
+const S3 = require('aws-sdk/clients/s3')
